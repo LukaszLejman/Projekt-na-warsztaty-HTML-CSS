@@ -1,8 +1,15 @@
+body{
+	background-color: black;
+}
+
 .all{
 	color:  #006896;
 	background-color: #00151F;
 	font-family: sans-serif;
 	font-style: normal;
+	width:  82rem;
+	max-width: 82rem;
+	margin: 0 auto;
 }
 
 .menu{
@@ -10,24 +17,56 @@
 	font-size: 2rem;
 	font-weight: bold;
 	font-variant: small-caps;
-	line-height:  3rem;
 	background-color: #00334A;
+	text-align: center;
+	line-height: 4rem;
+	margin: 0rem 1rem;
 	
 }
 
-.tekst{
+.contents{
+	padding: 0rem 1rem;
+}
+
+.text{
 	color: #00151F;
 	font-size: 1.5rem;
 	font-weight: normal;
 	font-variant: normal;
-	line-height:  2rem;
 	background-color: #1E4E63;
+	padding: 1rem 2rem;
+	
 }
 
-.stopka{
+.heading{
+	text-align: center;
+	background-image: url("banner.png");
+	height: 221px;
+	width: 80rem;
+	margin: 0 auto;
+}
+
+.footer{
 	color: #006896;
 	font-size: 1rem;
 	font-weight: normal;
 	font-variant: normal;
-	line-height:  2rem;
 }
+
+.img1{
+	float: left;
+}
+
+.p1{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.banner{
+	align: center;
+}
+ a:visited{
+ }
